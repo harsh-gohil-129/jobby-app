@@ -1,0 +1,168 @@
+.jobsPage-jobDetails-similar-item {
+  background-color: #272727;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .jobsPage-jobDetails-similar-item {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-item {
+    margin-bottom: 25px;
+    padding: 25px;
+    margin-right: 5px;
+  }
+}
+
+.jobsPage-jobDetails-similar-head {
+  display: flex;
+  align-items: center;
+}
+
+.jobsPage-jobDetails-similar-logo {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.jobsPage-jobDetails-similar-role-star {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 12px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-role-star {
+    margin-left: 20px;
+  }
+}
+
+.jobsPage-jobDetails-similar-role {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-role {
+    font-size: 22px;
+  }
+}
+
+.jobsPage-jobDetails-similar-star-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.jobsPage-jobDetails-similar-star {
+  color: #fbbf24;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-star {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.jobsPage-jobDetails-similar-location-package {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.jobsPage-jobDetails-similar-location-types {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-location-types {
+    gap: 25px;
+  }
+}
+
+.jobsPage-jobDetails-similar-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jobsPage-jobDetails-similar-icons {
+  height: 14px;
+  width: 14px;
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-icons {
+    height: 17px;
+    width: 17px;
+  }
+}
+
+.jobsPage-jobDetails-similar-icons-types {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #cbd5e1;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.jobsPage-jobDetails-similar-package {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-package {
+    font-size: 20px;
+  }
+}
+
+.jobsPage-jobDetails-similar-title {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-title {
+    font-size: 18px;
+  }
+}
+
+.jobsPage-jobDetails-similar-description {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobDetails-similar-description {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}

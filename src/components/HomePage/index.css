@@ -1,0 +1,94 @@
+.homePage-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .homePage-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    background-size: cover;
+    height: 100vh;
+  }
+}
+
+.homePage-responsive {
+  width: 90%;
+  max-width: 1300px;
+}
+
+@media screen and (min-width: 768px) {
+  .homePage-text-content {
+    max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .homePage-text-content {
+    max-width: 65%;
+  }
+}
+
+.homePage-heading {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .homePage-heading {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .homePage-heading {
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+}
+
+.homePage-description {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 998px) {
+  .homePage-description {
+    font-size: 25px;
+    margin-top: 15px;
+  }
+}
+
+.homePage-btn {
+  padding: 8px 20px;
+  background-color: #6366f1;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #f8fafc;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .homePage-btn {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .homePage-btn {
+    font-size: 16px;
+    padding: 12px 40px;
+  }
+}

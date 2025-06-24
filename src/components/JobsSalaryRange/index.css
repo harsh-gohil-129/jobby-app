@@ -1,0 +1,25 @@
+.jobsPage-filter-salary-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.jobsPage-filter-salary-input {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+}
+
+.jobsPage-filter-salary-label {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  margin: 0;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-filter-salary-label {
+    font-size: 14px;
+  }
+}

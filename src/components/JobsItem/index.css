@@ -1,0 +1,172 @@
+.jobsPage-jobsCard-item {
+  background-color: #272727;
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobsCard-item {
+    margin-bottom: 25px;
+  }
+}
+
+.jobsPage-jobsCard-item-link {
+  text-decoration: none;
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-jobsCard-item-link {
+    padding: 25px;
+  }
+}
+
+.jobsPage-card-head {
+  display: flex;
+  align-items: center;
+}
+
+.jobsPage-card-logo {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.jobsPage-card-role-star {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-role-star {
+    margin-left: 20px;
+  }
+}
+
+.jobsPage-card-role {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-role {
+    font-size: 22px;
+  }
+}
+
+.jobsPage-card-star-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.jobsPage-card-star {
+  color: #fbbf24;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-star {
+    height: 18px;
+    width: 18px;
+  }
+}
+
+.jobsPage-card-location-package {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.jobsPage-card-location-types {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-location-types {
+    gap: 25px;
+  }
+}
+
+.jobsPage-card-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.jobsPage-card-icons {
+  height: 14px;
+  width: 14px;
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-icons {
+    height: 17px;
+    width: 17px;
+  }
+}
+
+.jobsPage-card-icons-types {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #cbd5e1;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.jobsPage-card-package {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-package {
+    font-size: 20px;
+  }
+}
+
+.jobsPage-card-title {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-title {
+    font-size: 18px;
+  }
+}
+
+.jobsPage-card-description {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1100px) {
+  .jobsPage-card-description {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}
